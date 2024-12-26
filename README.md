@@ -75,6 +75,11 @@ Also during/after the execution of the script , it may prompt saying press "Ctrl
 
 If all goes well, you should see your playlist beginning to download in a folder with the same name. Enjoy!
 
+### Enhanced Spotify Playlist Downloader Script contains:
+- Added multiprocessing support for faster downloads.
+- Included functionality to download album art and embed it in MP3 files.
+- Improved error handling for better reliability.
+
 ## Modifications
 
 If you don't like inputting your Client ID, Client Secret, Username, and URI  every time, you can edit lines 96-99 in `spotify_to_mp3.py` to set the respective variables into a string containing your credentials instead of prompting with `input()`. For example, line 98 would become
